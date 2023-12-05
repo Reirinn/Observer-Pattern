@@ -5,8 +5,8 @@ public class Main {
         Subscriber sub2 = new Subscriber("Subscriber 2");
         newsAgency.attach(subscriber1);
         newsAgency.attach(subscriber2);
-        newsAgency.setNews("Breaking News: War has been declared!");
+        newsAgency.setNews("8.9 Magnitude na Lindol tumama sa Turkey!");
         newsAgency.detach(subscriber1);
-        newsAgency.setNews("New Breaking News: A virus has been identified!");
+        newsAgency.setNews("Just In! Kathniel Break na!");
     }
 }
