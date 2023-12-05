@@ -1,11 +1,11 @@
 public class Subscriber implements Observer {
-    private String name;
+    private String subName;
 
     public Subscriber(String name) {
-        this.name = name;
+        this.subName = subName;
     }
 
     public void update(String news) {
-        System.out.println(name + " received news: " + news);
+        System.out.println(subName + "received the news: " + news);
     }
 }
