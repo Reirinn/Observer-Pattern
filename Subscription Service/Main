@@ -7,6 +7,6 @@ public class Main {
         newsAgency.attach(subscriber2);
         newsAgency.setNews("Breaking News: War has been declared!");
         newsAgency.detach(subscriber1);
-        newsAgency.setNews("New breaking News: A virus has been identified!");
+        newsAgency.setNews("New Breaking News: A virus has been identified!");
     }
 }
