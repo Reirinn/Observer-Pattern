@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        NewsAgency newsAgency = new NewsAgency();
+        Subscriber subscriber1 = new Subscriber("Subscriber 1");
+        Subscriber subscriber2 = new Subscriber("Subscriber 2");
+        newsAgency.attach(subscriber1);
+        newsAgency.attach(subscriber2);
+        newsAgency.setNews("Breaking News: War has been declared!");
+        newsAgency.detach(subscriber1);
+        newsAgency.setNews("New breaking News: A virus has been identified!");
+    }
+}
